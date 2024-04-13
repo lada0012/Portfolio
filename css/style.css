@@ -1,0 +1,545 @@
+section [class^="container"] {
+    padding: 4rem 2rem;
+}
+
+@media screen and (min-width:1024px) {
+    section [class^="container"] {
+        padding: 4rem;
+    }
+
+    nav [class^="container"] {
+        padding: 0 4rem;
+    }
+}
+
+/* ===================================================== NAVBAR ===================================================== */
+
+.navbar {
+    background-color: #F7F2EF;
+}
+
+.navbar-brand {
+    color: #64775E;
+    font-weight: 600;
+    font-size: 2.2rem;
+}
+
+.navbar-nav .nav-link {
+    color: #174a25;
+    font-size: 1.1rem;
+    font-weight: 600;
+}
+
+.navbar-nav .nav-item {
+    padding: 0 .5rem;
+}
+
+@media screen and (min-width:1024px) {
+    .navbar-nav .nav-item {
+        padding: 0.1rem;
+    }
+}
+
+.contact-button {
+    font-family: sans-serif;
+    font-size: 12px;
+    background: #605849;
+    width: 130px;
+    padding: 10px;
+    text-align: center;
+    text-decoration: none;
+    text-transform: uppercase;
+    color: white;
+    border-radius: 5px;
+    cursor: pointer;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    -webkit-transition-duration: 0.3s;
+    transition-duration: 0.3;
+    -webkit-transition-property: box-shadow, transform;
+    transition-property: box-shadow, transform;
+}
+
+.contact-button:hover,
+.btn:focus,
+.btn:active {
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
+    -webkit-transform: scale(1.1);
+    transform: scale(1.1);
+}
+
+/* ===================================================== HERO ===================================================== */
+
+section.hero {
+    background-color: #F7F2EF;
+    padding-top: 72px;
+}
+
+@media screen and (max-width:600px) {
+    section.hero {
+        text-align: center;
+    }
+
+    section.hero .img-fluid {
+        width: 70%;
+    }
+}
+
+section.hero h1 {
+    color: #64775E;
+    text-shadow: 1px 2px #2d2d2d;
+}
+
+section.hero h5 {
+    color: #6C4D38;
+}
+
+section.hero h6 {
+    color: #605849;
+    padding-bottom: 1rem;
+    font-weight: 400;
+}
+
+.btn-learn {
+    font-family: sans-serif;
+    font-size: 14px;
+    background: #605849;
+    width: 140px;
+    padding: 12px;
+    text-align: center;
+    text-decoration: none;
+    text-transform: uppercase;
+    color: white;
+    border-radius: 5px;
+    cursor: pointer;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    -webkit-transition-duration: 0.3s;
+    transition-duration: 0.3;
+    -webkit-transition-property: box-shadow, transform;
+    transition-property: box-shadow, transform;
+}
+
+.btn-learn:hover,
+.btn-learn:focus,
+.btn-learn:active {
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
+    -webkit-transform: scale(1.1);
+    transform: scale(1.1);
+}
+
+/* ===================================================== FEATURED WORK ===================================================== */
+section.featured {
+    background-color: #F7F2EF;
+}
+
+section.featured h2 {
+    text-align: center;
+    color: #6C4D38;
+}
+
+section .card {
+    max-width: 17rem;
+    text-align: center;
+}
+
+.centered {
+    text-align: center;
+}
+
+/* ===================================================== ABOUT ME ===================================================== */
+
+.about-main{
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+
+.abt-content{
+    max-width: 456px;
+    margin: 0 auto;
+    color:#a4c4a3;
+}
+
+
+.abt-content h1{
+    max-width: 456px;
+    text-size-adjust: 40%;
+    margin: 0 auto;
+    color:#628960;
+}
+
+.abt-content span{
+    max-width: 456px;
+    margin: 0 auto;
+    color:#2c2c25;
+}
+
+
+.abt-content p{
+    max-width: 456px;
+    margin: 0 auto;
+    color:#73645e;
+}
+
+@media (min-width:544px) {
+    .about-main{
+        padding-top: 80px;
+        padding-bottom: 80px;
+    }
+}
+
+/* ===================================================== carousel ===================================================== */
+
+
+
+/* ===================================================== ABOUT BG ===================================================== */
+
+.abt-text{
+    text-align: right;
+    justify-content: center;
+}
+
+.img-about {
+    width: 60%;
+    border-radius: 20px;
+    z-index: 1;
+    padding-top: 60px;
+}
+
+@media screen and (max-width:600px) {
+    section.about-main {
+        text-align: center;
+    }
+
+    section.about-main .img-about {
+        width: 70%;
+
+    }
+}
+
+.talents{
+    width: 1000px;
+    margin: auto;
+    height: 600px;
+    background-color: #e4dad5;
+    padding: 4rem 5rem;
+    position: relative;
+}
+
+.talent-box{
+    width: 45%;
+    font-family: poppins;
+    border-radius: 20%;
+    box-shadow: #2d2d2d;
+}
+
+.talent-box .talent-title{
+    text-align: center;
+    text-transform: uppercase;
+    color: #2d2d2d;
+    margin-bottom: 1.5rem;
+}
+
+.talent-box .sub-title{
+    text-align: center;
+    font-size: 1.2rem;
+    color: #64775E;
+    margin-bottom: 1.8rem;
+}
+
+.photo-btn{
+    border: 1px solid #64775e;
+    color: #64775E;
+    padding: 1.2rem 2.2rem;
+    margin-top: 1.5rem;
+    text-decoration: none;
+    display: inline-block;
+    font-weight: bold;
+}
+.talent-box p {
+margin-bottom: 1.3rem;
+}
+
+.img-talent{
+    position: absolute;
+    top: 10%;
+    right: -45%;
+    width: 90%;
+    height: 90%;
+    border: #F7F2EF;
+}
+
+
+
+/* ===================================================== GRAPHICS ===================================================== */
+
+.graphics {
+    margin: 0; padding-top: 100px;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.graphics-container {
+    max-width: 85%;
+    margin: 20px auto;
+}
+
+.graphics-container .g-title{
+    font-size: 45px;
+    font-family: 'Poppins';
+    color: rgb(52, 86, 52);
+    border-radius: 5px;
+    margin-bottom: 10px;
+    text-align: center;
+    padding: 15px;
+
+}
+
+.graphics-container .img-container-g{
+    columns: 3 250px;
+    gap: 15px;
+}
+
+
+.graphics-container .img-container-g img{
+    margin-bottom: 10px;
+    border-radius: 5px;
+    width: 100%;
+}
+
+
+/* ===================================================== CONTACT ===================================================== */
+
+.contact-page {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    margin: 0;
+    padding: 0;
+}
+
+.container-contact {
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    background: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.item-contact {
+    width: 100%;
+    height: 550px;
+    max-width: 820px;
+    background: #fff;
+    border-radius: 20px;
+    box-shadow: 0 0 20px 10px rgba(0, 0, 0, .2);
+    overflow: hidden;
+    grid-template-columns: repeat(2, 1fr);
+    display: grid;
+    z-index: 1000;
+}
+
+
+.submit-form {
+    background: #7f786c;
+}
+
+.first-text {
+    padding-left: 20px;
+    padding-top: 20px;
+    font-size: 35px;
+    font-weight: bold;
+    color: #739768;
+}
+
+.secnd-text {
+    padding-left: 100px;
+    padding-top: 20px;
+    font-size: 20px;
+    color: #64775e;
+    text-align: center;
+    font-weight: 600;
+}
+
+.image {
+    height: 360px;
+    width: 300px;
+}
+
+.social-contact {
+    display: flex;
+    list-style: none;
+}
+
+.social-contact ul li {
+    padding-left: 15px;
+    font-size: 24px;
+    margin-top: 10px;
+}
+
+.social-contact i {
+    padding: 15px;
+    border-radius: 5px;
+}
+
+.third-text {
+    font-size: 25px;
+    position: relative;
+    top: 20px;
+    left: 60px;
+    padding-top: 10px;
+    color: white;
+}
+
+form {
+    padding: 0 50px;
+    height: 100%;
+    width: 100%;
+    overflow: hidden;
+    background: #7f786c;
+}
+
+.input-box {
+    height: 40px;
+    width: 100%;
+    margin: 40px 0;
+    position: relative;
+    ;
+}
+
+.input {
+    width: 100%;
+    height: 100%;
+    background: transparent;
+    border: 2px solid #fff;
+    border-radius: 20px;
+    outline: none;
+    padding-left: 10px;
+    color: #e3ddd9;
+    font-size: 16px;
+}
+
+.input-box label{
+    position: absolute;
+    top: 20%;
+    left: 10px;
+    padding-left: 10px;
+    transform-origin: translateY(-50%);
+    font-size: 15px;
+    font-weight: 500;
+    color: #593c2b;
+    transition: .3s;
+}
+.input-box .input:focus ~ label,
+.input-box .input:valid ~ label{
+        top: -20px;
+        left: 10px;
+        background-color: #7f786c;
+        font-weight: 500;
+        font-size: 13px;
+        padding: 5px;
+}
+
+textarea.input{
+    resize: none;
+    min-height: 150px;
+    overflow: auto;
+}
+
+.btn-submit{
+    position: relative;
+    top: 85px;
+    background: #fff;
+    outline: none;
+    border: none;
+    border-radius: 4px;
+    height: 45px;
+    width: 30%;
+    font-size: 16px;
+    color: #605849;
+    cursor: pointer;
+    font-weight: 500;
+}
+
+@media(max-width:850px){
+    .item-contact{
+        grid-template-columns: 100fr;
+    }
+    .contact{
+        display: none;
+    }
+    .text{
+        font-size: 40px;
+        text-align: center;
+    }
+}
+
+/* ===================================================== FAQ ===================================================== */
+
+.accordion-header {
+    --bs-accordion-border-color: green;
+}
+
+.accordion-button.collapsed {
+    color: #6d9d6b;
+    }
+
+/* ===================================================== FOOTER ===================================================== */
+
+@media (max-height:600px) {
+    footer {
+        position: static;
+        background: #F7F2EF;
+    }
+
+    header {
+        padding-top: 90px;
+    }
+}
+
+.footer-content {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+    background: #F7F2EF;
+}
+
+.footer-content h3 {
+    font-size: 1.8rem;
+    font-weight: 400;
+    text-transform: capitalize;
+    line-height: 3rem;
+}
+
+.footer-content p {
+    max-width: 500px;
+    margin: 10px auto;
+    line-height: 28px;
+    font-size: 14px;
+}
+
+.footer-bottom {
+    width: 100vw;
+    padding: 20px 0;
+    text-align: center;
+    background: #F7F2EF;
+}
+
+.footer-bottom p {
+    font-size: 14px;
+    word-spacing: 2px;
+    text-transform: capitalize;
+}
+
+.footer-bottom span {
+    text-transform: uppercase;
+    opacity: .4;
+    font-weight: 200;
+    background: #F7F2EF;
+}
